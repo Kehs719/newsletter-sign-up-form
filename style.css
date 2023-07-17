@@ -19,8 +19,8 @@ body {
     min-height: 100vh;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    color: var(--charcoal-grey);
-    background-color: var(--dark-slate-grey);
+    color: var(--dark-slate-grey);
+    background-color: var(--charcoal-grey);
     display: flex;
     justify-content: center;
     align-items: center;
