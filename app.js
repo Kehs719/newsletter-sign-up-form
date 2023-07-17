@@ -13,6 +13,7 @@ dismiss.addEventListener("click", () => {
     success.classList.add("none")
     card.classList.remove("none")
     card.classList.add("card")
+    input.value="";
 
 })
 
@@ -24,6 +25,14 @@ sub.addEventListener("click", () => {
 function ValidateEmail(mail) {
     if (regex.test(mail)) {
 
+        if (input.classList = "email-error") {
+            errorText.classList.remove('error-txt')
+            errorText.classList.add('none')
+
+            input.classList.remove('email-error')
+            input.classList.add('email')
+
+        }
         card.classList.remove("card")
         card.classList.add("none")
         success.classList.remove('none')
