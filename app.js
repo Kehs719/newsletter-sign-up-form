@@ -6,7 +6,7 @@ const success = document.getElementById("success");
 const emailTxt = document.getElementById("email-txt");
 const dismiss = document.getElementById('dismiss');
 
-const regex = /^\w+([.-]?\w+)@@[a-zA-Z0-9]+([.-]?[a-zA-Z0-9]+)(\w{2,})+$/;
+const regex = (/^^\w+([.-]?\w+)@@\w+([.-]?\w+)(\w{2,3})+$/);
 
 dismiss.addEventListener("click", () => {
     success.classList.remove('success')
